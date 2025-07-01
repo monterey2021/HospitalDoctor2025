@@ -1,28 +1,20 @@
 <!-- Bootstrap 5.3 -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
 <!-- Google Fonts -->
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 <!-- Ionicons -->
-<link rel="stylesheet" href="ionicons-2.0.1/css/ionicons.min.css">
+<link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+
 <!-- jvectormap -->
 <link rel="stylesheet" href="plugins/jvectormap/jquery-jvectormap-1.2.2.css">
-
 <link rel="stylesheet" href="plugins/select2/select2.min.css">
 
 <!-- Theme style -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/css/adminlte.min.css">
-
+<link rel="stylesheet" href="css/AdminLTE.min.css">
 <link rel="stylesheet" href="plugins/iCheck/square/blue.css">
-
-
 <link rel="stylesheet" href="css/skins/skin-blue.min.css">
-
-<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
 
 <style>
     @media (min-width: 768px){
@@ -35,66 +27,43 @@
     }
 
     .skin-yellow .main-header .logo {
-        /*background-color: #FFCF6E;*/
-        /*background-color: #7F7BFF;*/
         background-color: #9390FF;
         color: #fff;
-        /*color:#425d69;*/
         border-bottom: 0 solid transparent;
     }
     .skin-yellow .main-header .logo:hover {
-        /*background-color: #FFBB30;*/
         background-color: #7B76FF;
         color: #fff;
-        /*color:#425d69;*/
         border-bottom: 0 solid transparent;
     }
     .skin-yellow .main-header .navbar .sidebar-toggle {
         color:#fff;
-        /*color:#425d69;*/
-
     }
 
     .skin-yellow .main-header .navbar .sidebar-toggle:hover {
-        /*background-color: #e08e0b;*/
         background-color: #7B76FF;
-        /*color:#425d69;*/
         color:#fff;
-
     }
     .skin-yellow .main-header .navbar {
-        /*background-color: #f39c12;*/
-        /*background-color: #FFCF6E;*/
         background-color: #AEABFF;
     }
 
     .skin-yellow .main-header .navbar .nav>li>a {
         color: #fff;
-        /*color: #425d69;*/
     }
-    /*    .skin-yellow .main-header li.user-header {
-            background-color: #f39c12;
-            background-color: darkgray;
-            background: #1e282c;
-            
-        }*/
 
     .skin-blue .main-header li.user-header {
-        /*background-color: #3c8dbc;*/
         background-color: lightgray;
     }
 
     .navbar-nav>.user-menu>.dropdown-menu>li.user-header>p {
         z-index: 5;
-        /*color: #fff;*/
         color: #1e282c;
-        /*color: rgba(255,255,255,0.8);*/
         font-size: 17px;
         margin-top: 10px;
     }
 
     .navbar-nav>.user-menu>.dropdown-menu>.user-footer {
-        /*background-color: #1e282c;*/
         background-color: darkgray;
         padding: 10px;
     }
@@ -182,9 +151,6 @@
             font-weight: bold;
         }
 
-        /*
-        Label the data
-        */
         #no-more-tables td:before { content: attr(data-title); }
     }
 </style>
@@ -212,12 +178,6 @@
 </style>
 
 <style>
-    /***
-Bootstrap Line Tabs by @keenthemes
-A component of Metronic Theme - #1 Selling Bootstrap 3 Admin Theme in Themeforest: http://j.mp/metronictheme
-Licensed under MIT
-***/
-
     /* Tabs panel */
     .tabbable-panel {
         border:1px solid #eee;
@@ -276,7 +236,6 @@ Licensed under MIT
         padding-bottom: 0;
     }
 
-    /* Below tabs mode */
 
     .tabbable-line.tabs-below > .nav-tabs > li {
         border-top: 4px solid transparent;
