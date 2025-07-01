@@ -8,12 +8,13 @@ if ($_SESSION){
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <title>Iniciar Sesión</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Iniciar Sesión</title>
         <link rel="shortcut icon" href="img/icono.ico" type="image/x-icon">
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+        <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/> -->
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
         <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
               integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -39,7 +40,7 @@ if ($_SESSION){
                                         <div class="col-md-12">
                                             <label for="Usuario" class="form-label">Usuario</label>
                                             <span class="text-danger">*</span>
-                                            <input type="email" class="form-control rounded-0" name="usuario" placeholder="Ingrese su usuario"/>
+                                            <input type="text" class="form-control rounded-0" name="usuario" placeholder="Ingrese su usuario"/>
                                         </div>
                                         <div class="col-md-12">
                                             <label for="Password" class="form-label">Contraseña</label>

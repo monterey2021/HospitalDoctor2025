@@ -1,147 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
-*,
-::after,
-::before {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
 a {
     text-decoration: none;
 }
 
-li {
-    list-style: none;
+h6 {
+    font-weight: 800;
+    color: #3e4455;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
+    background-color: #eaeae9;
 }
 
-.wrapper {
-    display: flex;
-}
-    
-.main {
-    min-height: 100vh;
-    width: 100%;
-    overflow: hidden;
-    transition: all 0.35s ease-in-out;
-    background-color: #fafbfe;
+.card-header img{
+    width: 200px;
+    height: auto;
+    padding: 0.5rem 0;
 }
 
-
-#sidebar {
-    width: 70px;
-    min-width: 70px;
-    z-index: 1000;
-    transition: all .25s ease-in-out;
-    display: flex;
-    flex-direction: column;
-    background-color: #0e223e;
+.form-label {
+    color: #3e4455;
 }
 
-#sidebar.expand {
-    width: 260px;
-    min-width: 260px;
+.form-control {
+    background-color: #fff;
+    padding: 0 30px;
+    border-color: #939393;
+    line-height: 40px;
 }
 
-#toggle-btn {
-    background-color: transparent;
-    cursor: pointer;
-    border: 0;
-    padding: 1rem 1.5rem;
-}
-
-#toggle-btn i {
-    font-size: 1.5rem;
-    color: #fff;
-}
-
-.sidebar-logo {
-    margin: auto 0;
-}
-
-.sidebar-logo a {
-    color: #FFF;
-    font-size: 1.15rem;
-    font-weight: 600;
-}
-
-#sidebar:not(.expand) .sidebar.logo,
-#sidebar:not(.expand) a.sidebar-link span {
-    display: none;
-}
-
-.sidebar-nav {
-    padding: 2rem 0;
-    flex: 1 1 auto;
-}
-
-a.sidebar-link {
-    padding: .625rem 1.625rem;
-    color: #FFF;
-    display: block;
-    font-size: 0.9rem;
-    white-space: nowrap;
-    border-left: 3px solid transparent;
-}
-
-.sidebar-link i {
-    font-size: 1.1rem;
-    margin-right: .75rem;
-}
-
-a.sidebar-link:hover {
-    background-color: rgba(255, 255, 255, .075);
-    border-left: 3px solid #3b7ddd;
-}
-
-.sidebar-item {
-    position: relative;
-}
-
-#sidebar:not(.expand) .sidebar-item .sidebar-dropdown {
-    position: absolute;
-    top: 0;
-    left: 70px;
-    background-color: #0e2238;
-    padding: 0;
-    min-width: 15rem;
-    display: none;
-}
-
-#sidebar:not(.expand) .sidebar-item:hover .has-dropdown+.sidebar-dropdown {
-    display: block;
-    max-height: 15em;
-    width: 100%;
-    opacity: 1;
-}
-
-#sidebar.expand .sidebar-link[data-bs-toggle="collapse"]::after {
-    border: solid;
-    border-width: 0 .075rem .075rem 0;
-    content: "";
-    display: inline-block;
-    padding: 2px;
-    position: absolute;
-    right: 1.5rem;
-    top: 1.4rem;
-    transform: rotate(-135deg);
-    transition: all .2s ease-out;
-}
-
-#sidebar.expand .sidebar-link[data-bs-toggle="collapse"].collapsed::after {
-    transform: rotate(45deg);
-    transition: all .2s ease-out;
-}
-
-input[type="password"]:focus {
+.form-control:focus {
     outline: none;
-    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* efecto sutil blanco */
+    box-shadow: 0 0 0 0 rgba(255, 255, 255);
+    background-color: #fff;
+    color: #3e4455;
+    border-color: #939393;
+}
+
+.form-check .form-check-input {
+    border-color: #939393;
+}
+
+.form-check label {
+    color: #3e4455;
+}
+
+.f-password {
+    color: #293b5f;
+}
+
+.btn {
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #293b5f;
+    border-radius: 0;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #293b5f;
+}
+
+.bg.image {
+    background-image: url("img/acceso.png");
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
