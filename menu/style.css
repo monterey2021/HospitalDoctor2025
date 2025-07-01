@@ -6,7 +6,7 @@ a {
 
 h6 {
     font-weight: 800;
-    color: #3e4455;
+    color: #0e223e;
 }
 
 body {
@@ -21,7 +21,7 @@ body {
 }
 
 .form-label {
-    color: #3e4455;
+    color: #0e223e;
 }
 
 .form-control {
@@ -48,7 +48,7 @@ body {
 }
 
 .f-password {
-    color: #293b5f;
+    color: #0e223e;
 }
 
 .btn {
@@ -57,17 +57,17 @@ body {
     padding: 12px;
     color: #fff;
     font-weight: 600;
-    background-color: #293b5f;
+    background-color: #0e223e;
     border-radius: 0;
 }
 
 .btn:hover {
     color: #fff;
-    background-color: #293b5f;
+    background-color: #0e223e;
 }
 
 .bg-image {
-    background-image: url("img/acceso.png");
+    background-image: url("acceso.png");
     position: absolute;
     width: 100%;
     min-height: 100%;
