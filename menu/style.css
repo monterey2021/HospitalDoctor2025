@@ -66,7 +66,7 @@ body {
     background-color: #293b5f;
 }
 
-.bg.image {
+.bg-image {
     background-image: url("img/acceso.png");
     position: absolute;
     width: 100%;
