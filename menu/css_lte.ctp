@@ -1,7 +1,7 @@
-<!-- Bootstrap 3.3.5 -->
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<!-- Font Awesome -->
-<link rel="stylesheet" href="font-awesome-4.4.0/css/font-awesome.min.css">
+<!-- Bootstrap 5.3 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<!-- Google Fonts -->
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 <!-- Ionicons -->
 <link rel="stylesheet" href="ionicons-2.0.1/css/ionicons.min.css">
 <!-- jvectormap -->
@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="plugins/select2/select2.min.css">
 
 <!-- Theme style -->
-<link rel="stylesheet" href="css/AdminLTE.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/css/adminlte.min.css">
 
 <link rel="stylesheet" href="plugins/iCheck/square/blue.css">
 
