@@ -17,13 +17,16 @@ li {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
 }
 
 .wrapper {
     display: flex;
 }
-
+    
 .main {
     min-height: 100vh;
     width: 100%;
@@ -31,6 +34,7 @@ body {
     transition: all 0.35s ease-in-out;
     background-color: #fafbfe;
 }
+
 
 #sidebar {
     width: 70px;
@@ -135,4 +139,9 @@ a.sidebar-link:hover {
 #sidebar.expand .sidebar-link[data-bs-toggle="collapse"].collapsed::after {
     transform: rotate(45deg);
     transition: all .2s ease-out;
+}
+
+input[type="password"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* efecto sutil blanco */
 }
