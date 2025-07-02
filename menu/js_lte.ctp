@@ -1,7 +1,8 @@
 <!-- jQuery 2.1.4 -->
 <script src="plugins/jQuery/jQuery-2.1.4.min.js"></script>
-<!-- Bootstrap 3.3.5 -->
-<script src="js/bootstrap.min.js"></script>
+
+<!-- Bootstrap 5.3 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
 <!-- Select2 -->
 <script src="plugins/select2/select2.full.min.js"></script>
@@ -10,19 +11,13 @@
 <script src="plugins/fastclick/fastclick.min.js"></script>
 
 <!-- AdminLTE App -->
-<script src="js/adminlte/js/app.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/js/adminlte.min.js"></script>
 
 <!-- SlimScroll 1.3.0 -->
 <script src="plugins/slimScroll/jquery.slimscroll.min.js"></script>
-
 <script src="plugins/iCheck/icheck.min.js"></script>
 
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<!--<script src="/sicoe/js/adminlte/js/pages/dashboard2.js"></script>-->
-<!-- AdminLTE for demo purposes -->
-
 <script>
-//Initialize Select2 Elements
     $(".select2").select2();
 </script>
 
@@ -115,9 +110,3 @@
         return (parts.length === 3 ? '-' : '') + result;
     }
 </script>
-
-
-
-
-
-

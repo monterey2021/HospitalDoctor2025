@@ -20,12 +20,10 @@
             <div class="content-wrapper">
                 
             </div>
-                  <?php require 'menu/footer_lte.ctp'; ?><!--ARCHIVOS JS-->  
+                <?php require 'menu/footer_lte.ctp'; ?><!--ARCHIVOS JS-->  
             </div>                  
-        <?php require 'menu/js_lte.ctp'; ?><!--ARCHIVOS JS-->
+        <?php require 'menu/js_lte.ctp'; ?>
     </body>
-    <script src="js/scripts.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/js/adminlte.min.js"></script>
 </html>
 
 
