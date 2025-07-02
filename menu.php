@@ -6,8 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Menú Principal</title>
         <link rel="shortcut icon" href="img/icono.ico" type="image/x-icon">
-        <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
-        <!-- <link rel="stylesheet" href="menu/style.css"> -->
+        
+        <link rel="stylesheet" href="menu/style.css">
             <?php
             session_start();
             require 'menu/css_lte.ctp'
