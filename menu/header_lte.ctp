@@ -1,7 +1,10 @@
 <header class="main-header">
-    <a href="/HospitalDoctor2025" class="logo">
-        <span class="logo-mini"><b>Dr</b></span>
-        <span class="logo-lg">Hospital Doctor</span>
-    </a>
-    <?php require 'menu/navbar_lte.ctp'; ?>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="/HospitalDoctor2025/menu.php">
+                <img src="img/acceso.png" alt="Logo" width="30" height="24">
+            </a>
+            <?php require 'menu/navbar_lte.ctp'; ?>
+        </div>
+    </nav>
 </header>
