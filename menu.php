@@ -14,15 +14,12 @@
     </head>
     <body class="p-3 m-0 border-0 bd-example m-0 border-0">
         <div class="wrapper">
-            <?php require 'menu/header_lte.ctp'; ?>
+            
             <?php require 'menu/toolbar_lte.ctp';?>
             <div class="content-wrapper">
-                
             </div>
                 <?php require 'menu/footer_lte.ctp'; ?><!--ARCHIVOS JS-->  
             </div>                  
         <?php require 'menu/js_lte.ctp'; ?>
     </body>
 </html>
-
-
