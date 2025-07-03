@@ -25,26 +25,26 @@
         <!-- /.search form -->
         <!-- sidebar menu: : style can be found in sidebar.less -->
         <ul class="sidebar-menu">
-            <li class="header">MENU PRINCIPAL</li>
+           <li class="header">MENU PRINCIPAL</li> 
             <li><a href="/Agendamiento2024/menu.php">
                     <span class="glyphicon glyphicon-home"></span> <strong>INICIO</strong></a></li>
-                        <?php
-                        $modulos=consultas::get_datos("select * from modulos order by id_modulo");
-                        foreach ($modulos as $modulo) { ?>
-                    <li class="treeview">
-                        <a href="">
-                            <i class="fa fa-list"></i><span><?php echo $modulo['nombremod']?></span> <i class="fa fa-angle-left pull-right"></i>
-                        </a>
-                            <?php
-                            $paginas=consultas::get_datos("select * from paginas a join modulos b on a.id_modulo=b.id_modulo where nombremod='".$modulo['nombremod']."' order by nombrepag");
-                            ?>
-                        <ul class="treeview-menu">
-                            <?php foreach ($paginas as $pagina) { ?>
-                            <li><a href="<?php echo $pagina['enlace']?>"><i class="fa fa-circle-o"></i> <?php echo $pagina['nombrepag']?></a></li>
-                                <?php };?>
-                        </ul>
-                    </li>
-                        <?php } ?>
+        <?php
+        $modulos=consultas::get_datos("select * from modulos order by id_modulo");
+        foreach ($modulos as $modulo) { ?>
+            <li class="treeview">
+                <a href="">
+                    <i class="fa fa-list"></i><span><?php echo $modulo['nombremod']?></span> <i class="fa fa-angle-left pull-right"></i>
+                </a>
+        <?php
+        $paginas=consultas::get_datos("select * from paginas a join modulos b on a.id_modulo=b.id_modulo where nombremod='".$modulo['nombremod']."' order by nombrepag");
+        ?>
+                <ul class="treeview-menu">
+                    <?php foreach ($paginas as $pagina) { ?>
+                    <li><a href="<?php echo $pagina['enlace']?>"><i class="fa fa-circle-o"></i> <?php echo $pagina['nombrepag']?></a></li>
+                    <?php };?>
+                </ul>
+            </li>
+ <?php } ?>
         </ul>
     </section>
 </aside>
