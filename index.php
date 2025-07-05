@@ -14,8 +14,7 @@ if ($_SESSION){
         <title>Iniciar Sesión</title>
         <link rel="shortcut icon" href="img/icono.ico" type="image/x-icon">
         <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-              integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <link rel="stylesheet" href="menu/style.css">
     </head>
     <body>
@@ -47,7 +46,7 @@ if ($_SESSION){
                                         </div>
                                         <div class="d-flex justify-content-between">
                                             <a href="#" class="f-password">
-                                                <u>¿Olvidaste tu contraseña</u>
+                                                <u>¿Olvidaste tu contraseña?</u>
                                             </a>
                                         </div>
                                         <div class="col-md-12">
@@ -66,8 +65,7 @@ if ($_SESSION){
                 </div>
             </div>
         </section>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
         <script src="js/jquery-1.12.2.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
     </body>
